@@ -4,14 +4,14 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated theme to match Verizon branding with red primary, dark backgrounds, and tech-forward aesthetic */
+  /* UTD Theme: Orange primary with green accents, matching UT Dallas branding */
   --background: oklch(0.99 0 0);
   --foreground: oklch(0.15 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.15 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0 0);
-  --primary: oklch(0.45 0.22 25); /* Verizon Red */
+  --primary: oklch(0.60 0.18 45); /* UTD Orange */
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.96 0 0);
   --secondary-foreground: oklch(0.15 0 0);
@@ -23,32 +23,35 @@
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.90 0 0);
   --input: oklch(0.90 0 0);
-  --ring: oklch(0.45 0.22 25);
-  --chart-1: oklch(0.45 0.22 25); /* Red - Congested */
-  --chart-2: oklch(0.65 0.18 145); /* Green - Optimal */
+  --ring: oklch(0.60 0.18 45);
+  --chart-1: oklch(0.50 0.25 25); /* Red - Congested */
+  --chart-2: oklch(0.65 0.18 145); /* Green - Optimal (UTD Green) */
   --chart-3: oklch(0.60 0.15 250); /* Blue - High Capacity */
-  --chart-4: oklch(0.55 0.20 60);
+  --chart-4: oklch(0.60 0.18 45); /* Orange - UTD Orange */
   --chart-5: oklch(0.70 0.15 300);
+  --utd-orange: oklch(0.60 0.18 45);
+  --utd-green: oklch(0.65 0.18 145);
+  --verizon-red: oklch(0.45 0.22 25);
   --radius: 0.5rem;
   --sidebar: oklch(0.98 0 0);
   --sidebar-foreground: oklch(0.15 0 0);
-  --sidebar-primary: oklch(0.45 0.22 25);
+  --sidebar-primary: oklch(0.60 0.18 45);
   --sidebar-primary-foreground: oklch(1 0 0);
   --sidebar-accent: oklch(0.96 0 0);
   --sidebar-accent-foreground: oklch(0.15 0 0);
   --sidebar-border: oklch(0.90 0 0);
-  --sidebar-ring: oklch(0.45 0.22 25);
+  --sidebar-ring: oklch(0.60 0.18 45);
 }
 
 .dark {
-  /* Dark mode with deep blacks and red accents for premium tech feel */
+  /* Dark mode with UTD orange and green accents */
   --background: oklch(0.10 0 0);
   --foreground: oklch(0.98 0 0);
   --card: oklch(0.13 0 0);
   --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.10 0 0);
   --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.55 0.25 25); /* Brighter red for dark mode */
+  --primary: oklch(0.65 0.20 45); /* Brighter UTD Orange for dark mode */
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.18 0 0);
   --secondary-foreground: oklch(0.98 0 0);
@@ -60,20 +63,23 @@
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.20 0 0);
   --input: oklch(0.20 0 0);
-  --ring: oklch(0.55 0.25 25);
+  --ring: oklch(0.65 0.20 45);
   --chart-1: oklch(0.55 0.25 25);
   --chart-2: oklch(0.70 0.20 145);
   --chart-3: oklch(0.65 0.18 250);
-  --chart-4: oklch(0.60 0.22 60);
+  --chart-4: oklch(0.65 0.20 45);
   --chart-5: oklch(0.75 0.18 300);
+  --utd-orange: oklch(0.65 0.20 45);
+  --utd-green: oklch(0.70 0.20 145);
+  --verizon-red: oklch(0.55 0.25 25);
   --sidebar: oklch(0.13 0 0);
   --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.55 0.25 25);
+  --sidebar-primary: oklch(0.65 0.20 45);
   --sidebar-primary-foreground: oklch(1 0 0);
   --sidebar-accent: oklch(0.18 0 0);
   --sidebar-accent-foreground: oklch(0.98 0 0);
   --sidebar-border: oklch(0.20 0 0);
-  --sidebar-ring: oklch(0.55 0.25 25);
+  --sidebar-ring: oklch(0.65 0.20 45);
 }
 
 @theme inline {
